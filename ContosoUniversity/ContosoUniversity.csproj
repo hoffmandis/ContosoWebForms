@@ -256,6 +256,7 @@
     <Content Include="DynamicData\FieldTemplates\Text_Edit.ascx" />
     <Content Include="DynamicData\FieldTemplates\Url.ascx" />
     <Content Include="DynamicData\FieldTemplates\Url_Edit.ascx" />
+    <Content Include="editStudent.aspx" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
@@ -551,6 +552,13 @@
     </Compile>
     <Compile Include="DynamicData\FieldTemplates\Url_Edit.ascx.designer.cs">
       <DependentUpon>Url_Edit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="editStudent.aspx.cs">
+      <DependentUpon>editStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editStudent.aspx.designer.cs">
+      <DependentUpon>editStudent.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
